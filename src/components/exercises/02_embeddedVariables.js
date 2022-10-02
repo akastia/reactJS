@@ -2,7 +2,7 @@ import React from "react";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
 
 const Demo = () => {
-  
+    const course_name = "HDip Computer Sciences - Modules Table"
     const modules = [
       {
         Name: "Devops",
@@ -17,7 +17,7 @@ const Demo = () => {
     ];
   return (
     <div>
-      <h1>HDip Computer Sciences - Modules Table</h1>
+      <h1>{course_name}</h1>
 
 
       <table className="table table-bordered">
